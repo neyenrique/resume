@@ -1,0 +1,134 @@
+body{
+
+  background-image: url("../img/background_photo.png")
+}
+
+#neyprofile img{
+max-width: 420px;
+min-width: 400px;
+padding: 2em;
+border: 2px solid #ccc;
+}
+
+#neyprofile{
+  margin:5px auto;
+  width:420px;
+}
+
+#header{
+  align-content:center;
+  margin:5px auto;
+  border:none;
+
+}
+
+
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+li {
+  font-size: 30px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 40px;
+}
+
+li > a {
+  background:#E0E0E0;
+  align:center;
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  padding:5px;
+  border:2px solid #ccc;
+  float:right;
+}
+
+li > a:hover {
+  background:#66CCFF;
+  color: blue;
+  border: 1px solid #2E3D4C;
+  transition: border-color 1s, ease-in, background 0.50s ease-in;
+}
+
+time {float:left;}
+
+h1{
+  font-weight:bold;
+  font-size: 38px;
+  color: black;
+}
+
+h2{
+  font-weight:bold;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+h3{
+  font-weight:bold;
+  font-size: 20px;
+  color:black;
+}
+
+h4{
+  font-weight:bold;
+  font-size: 18px;
+  color:black;
+}
+
+#container{
+  max-width:960px;
+}
+
+header{
+  max-width:960px;
+  color:black;
+  text-align:center;
+  padding:20px;
+  border:0;
+  margin:0 auto;
+}
+
+div{
+  width: 600px;
+  padding:20px;
+  border: 1px solid grey;
+  width:1200px;
+  padding bottom:20px;
+}
+
+.container1,.container2{
+  padding:2px;
+  border:none;
+  margin:auto;
+  width:auto;
+  overflow:visible;
+  color:black;
+  position:relative;
+  }
+
+#education,#experience, #skills{
+  font-size:18px;
+  width:80%;
+  border:5px;
+  margin-right:15px;
+  float:inherit;
+
+}
+
+#education  a{
+  border:0px;
+  text-decoration:none;
+  background-color:white;
+  font-size:16px;
+  }
+
+#education li{font-size:18px;}
+#experience li{font-size:18px;}
+#skills li{font-size:18px;}

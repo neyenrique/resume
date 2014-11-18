@@ -1,0 +1,38 @@
+body {
+  color:black;
+  font-size: 9pt;
+  font-family: Arial sans-serif;
+}
+
+#container {
+  margin: 2em auto;
+  width: 960px;
+  position: relative;
+}
+
+#neyprofile{
+  display:none;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+section {
+  float: left;
+  width: 700px;
+}
+
+
+footer {
+  color: black;
+  border-top: 1px solid #ccc;
+  clear: both;
+}
